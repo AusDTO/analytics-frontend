@@ -1,0 +1,44 @@
+body {
+	margin: 0;
+}
+
+.abstract {
+	font-weight: 700;
+	font-size: 1.25rem;
+}
+
+main.main > .row > div > .au-grid {
+	padding-top: 6rem;
+	padding-bottom: 6rem;
+}
+
+ol.analytics__list {
+	list-style-type: none;
+	padding: 0;
+}
+ol.analytics__list li.analytic {
+	padding-left: 88px;
+}
+ol.analytics__list li:before {
+	float: left;
+	margin-left: -88px;
+	position: absolute;
+	font-size: 56px;
+	font-weight: 700;
+}
+ol.analytics__list li[value="1"]:before { content: "1"; }
+ol.analytics__list li[value="4"]:before { content: "4"; }
+ol.analytics__list li[value="11"]:before { content: "11"; }
+
+ul.benefits__list {
+	list-style-type: none;
+	padding: 0;
+}
+ul.benefits__list li {
+	float: left;
+}
+
+.benefit__wrapper {
+	padding: 2rem 0;
+	min-height: 8rem;
+}
